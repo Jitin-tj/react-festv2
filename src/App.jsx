@@ -1,6 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './App.css';
 
+import college from "./assets/college_logo.jpeg";
+import wall_e from "./assets/1000054284.png"
+
 export default function App() {
   const [isBottomInView, setIsBottomInView] = useState(false);
   const bottomScreenRef = useRef(null);
@@ -159,7 +162,7 @@ export default function App() {
       </div>
       
       <div className="corner-logo right">
-        <img src="/college_logo.jpeg" alt="College Logo" className="college-logo-img" />
+        <img src={college} alt="College Logo" className="college-logo-img" />
       </div>
 
       {/* Sticky Return To Top Button */}
@@ -176,7 +179,7 @@ export default function App() {
         <div className="glass-panel">
           
           {/* Left-Aligned Background Image (Wall-E) */}
-          <img src="/1000054284.png" alt="Wall-E Hologram" className="bg-wall-e" />
+          <img src={wall_e} alt="Wall-E Hologram" className="bg-wall-e" />
 
           <h1 className="glitch" data-text="ALGORA">ALGORA</h1>
           
