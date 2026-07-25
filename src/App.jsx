@@ -159,7 +159,7 @@ export default function App() {
       </div>
       
       <div className="corner-logo right">
-        <img src="/college_logo.jpeg" alt="College Logo" className="college-logo-img" />
+        <img src={process.env.PUBLIC_URL + '/college_logo.jpeg'} alt="College Logo" className="college-logo-img" />
       </div>
 
       {/* Sticky Return To Top Button */}
