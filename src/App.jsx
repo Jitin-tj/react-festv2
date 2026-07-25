@@ -159,7 +159,7 @@ export default function App() {
       </div>
       
       <div className="corner-logo right">
-        <img src={import.meta.env.BASE_URL + 'college_logo.jpeg'} alt="College Logo" className="college-logo-img" />
+        <img src={import.meta.env.BASE_URL + '/college_logo.jpeg'} alt="College Logo" className="college-logo-img" />
       </div>
 
       {/* Sticky Return To Top Button */}
