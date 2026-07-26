@@ -162,7 +162,7 @@ export default function App() {
       </div>
       
       <div className="corner-logo right">
-        <img src={college} alt="College Logo" className="college-logo-img" />
+        <img src="./college_logo.JPEG" alt="College Logo mmm" className="college-logo-img" />
       </div>
 
       {/* Sticky Return To Top Button */}
