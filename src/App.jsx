@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './App.css'
 
-import college from "./assets/college_logo.jpeg"
+import college from "./assets/college_logo.JPEG"
 import wall_e from "./assets/1000054284.png"
 
 export default function App() {
